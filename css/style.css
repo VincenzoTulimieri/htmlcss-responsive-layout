@@ -141,7 +141,17 @@ img {
 }
 #presentation .container hr{
     width: 100px;
-    color: #f7972e;
+    border: 0;
+    height: 1px;
+    background-color: #f7972e;
+    margin-bottom: 25px;
+}
+#presentation .container div{
+    margin-bottom: 20px;
+
+}
+#presentation .container p{
+    color: black;
 }
 
 
