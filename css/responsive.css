@@ -5,11 +5,15 @@
 
 
 @media screen and (min-width: 768px) {
+    /* header */
     #intestazione h1{
         text-align: left;
         font-size: 45px;
         padding-left: 25px;
     }
+
+    /* main */
+
     /* tiramiù responsive */
     .container h2 span{
         display: inline;
@@ -52,6 +56,8 @@
     #presentation .container p{
         line-height: 40px;
     }
+
+    /* footer */
 }
 
 
@@ -60,9 +66,13 @@
 
 
 @media screen and (min-width: 992px) {
+    /* header */
     #intestazione h1{
         font-size: 50px;
     }
+
+    /* main */
+
     /* tiramisù responsive */
 
     .container-img{
@@ -91,6 +101,6 @@
 
     /* presentation */
 
-        
+    /* footer */
     
 }
