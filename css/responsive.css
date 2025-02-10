@@ -9,6 +9,10 @@
         text-align: left;
         font-size: 45px;
         padding-left: 25px;
+       
+    }
+    .container h2 span{
+        display: inline;
     }
 
 }

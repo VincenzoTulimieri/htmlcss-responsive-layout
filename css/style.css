@@ -15,6 +15,8 @@ body{
     font-weight: 400;
     color: #ff9614;
     text-align: center;
+    text-shadow: 2px 0px 3px #b4b4b4;
+    
 }
 
 
@@ -22,3 +24,85 @@ body{
 
 
 /* proprietà comuni */
+main{
+    background-color: #f6f5f3;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+
+
+
+
+
+
+/* container */
+.container{
+    padding: 30px 25px;
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container p{
+    margin-bottom: 20px;
+    color: #999999;
+}
+.container h2{
+    color: #4e3969;
+    margin-bottom: 30px;
+}
+.container h2 span{
+    display: none;
+}
+
+
+/* main */
+#tiramisù .dati{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px #e2e0e1;
+    padding: 40px 0 45px 38px;
+    margin-bottom: 35px;
+ }
+.dati h3{
+    margin-bottom: 35px;
+ }
+.dati ul{
+    list-style: none;
+    line-height: 30px;
+ }
+ .social{
+    display: flex;
+    justify-content: space-between;
+ }
+.social>div{
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px #e2e0e1;
+    display: flex;
+    padding: 15px;
+    border-radius: 45%;
+}
+.social>div strong{
+    display: none;
+}
+.social .fa-facebook{
+    color: #1a77f3;
+}
+.social .fa-twitter{
+    color: #009eff;
+}
+.social .fa-instagram{
+    color: #eb91b3;
+}
+.social .fa-pinterest{
+    color: #eb5151;
+}
+.social .fa-youtube{
+    color: #e62222;
+}
+
+
+
+
+
