@@ -40,6 +40,18 @@
     }
 
     /* presentation */
+
+
+
+    #presentation .container div{
+        width: 50%;
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    #presentation .container p{
+        line-height: 40px;
+    }
 }
 
 
@@ -77,7 +89,7 @@
         display: inline;  
     }   
 
-
+    /* presentation */
 
         
     
