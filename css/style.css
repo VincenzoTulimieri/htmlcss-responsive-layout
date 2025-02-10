@@ -1,22 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Montserrat", serif;
     font-optical-sizing: auto;
 }
+
 /* header */
 
-#intestazione h1{
+#intestazione h1 {
     font-family: "Nerko One", serif;
     font-weight: 400;
     color: #ff9614;
     text-align: center;
     text-shadow: 2px 0px 3px #b4b4b4;
-    
+
 }
 
 
@@ -24,14 +25,16 @@ body{
 
 
 /* proprietà comuni */
-main{
+main {
     background-color: #f6f5f3;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
 
+/* section */
 
 
 
@@ -39,70 +42,106 @@ img{
 
 
 /* container */
-.container{
+.container {
     padding: 30px 25px;
-    max-width: 1300px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
-.container p{
+
+.container p {
     margin-bottom: 20px;
     color: #999999;
 }
-.container h2{
+
+.container h2 {
     color: #4e3969;
     margin-bottom: 30px;
 }
-.container h2 span{
+
+.container h2 span {
     display: none;
+}
+
+.container-img {
+    margin-bottom: 35px;
 }
 
 
 /* main */
-#tiramisù .dati{
+
+
+
+/* tiramiù */
+#tiramisù .dati {
     background-color: #ffffff;
     box-shadow: 0 1px 3px #e2e0e1;
     padding: 40px 0 45px 38px;
+
+}
+
+.dati h3 {
     margin-bottom: 35px;
- }
-.dati h3{
-    margin-bottom: 35px;
- }
-.dati ul{
+}
+
+.dati ul {
     list-style: none;
     line-height: 30px;
- }
- .social{
+}
+
+
+#tiramisù .social {
     display: flex;
     justify-content: space-between;
- }
-.social>div{
+    margin-bottom: 30px;
+}
+
+.social>div {
     background-color: #ffffff;
     box-shadow: 0 1px 3px #e2e0e1;
     display: flex;
     padding: 15px;
     border-radius: 45%;
 }
-.social>div strong{
-    display: none;
-}
-.social .fa-facebook{
+/* colori icone */
+.social .fa-facebook {
     color: #1a77f3;
 }
-.social .fa-twitter{
+
+.social .fa-twitter {
     color: #009eff;
 }
-.social .fa-instagram{
+
+.social .fa-instagram {
     color: #eb91b3;
 }
-.social .fa-pinterest{
+
+.social .fa-pinterest {
     color: #eb5151;
 }
-.social .fa-youtube{
+
+.social .fa-youtube {
     color: #e62222;
+}
+/* elementi non in diplay mobile */
+.social>div strong {
+    display: none;
+}
+
+#tiramisù .pubblicità {
+    display: none;
 }
 
 
 
+/* presentation */
+
+#presentation .container h2{
+    color: #000000;
+}
+#presentation .container hr{
+    width: 100px;
+    color: #f7972e;
+}
 
 

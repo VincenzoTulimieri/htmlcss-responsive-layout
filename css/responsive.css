@@ -9,10 +9,34 @@
         text-align: left;
         font-size: 45px;
         padding-left: 25px;
-       
     }
+    /* tiramiù responsive */
     .container h2 span{
         display: inline;
+    }
+
+    .dati ul{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .dati ul li{
+        max-width: 100%;
+    }
+
+
+    #tiramiù .social{
+        justify-content: space-around;
+    }
+
+    .social>div{
+        max-width: 100%;
+        padding: 10px 60px;
+        border-radius: 20px;
+    }
+
+    #tiramisù .pubblicità{
+        display: block;
     }
 
 }
@@ -26,6 +50,34 @@
     #intestazione h1{
         font-size: 50px;
     }
+    /* tiramisù responsive */
+
+    .container-img{
+        display: flex;
+    }
+    .container-img img{
+        width: 100%; 
+        
+    }
+    .container-img .dati{
+        width: 40%;
+    }
+    .dati ul{
+        display: block;
+        padding-right: 50px;
+    }
+
+    .social>div{
+        max-width: 100%;
+        padding: 10px 40px;
+        border-radius: 20px;
+    }
+    .social>div strong{
+        display: inline;  
+    }   
+
+
+
         
     
 }
